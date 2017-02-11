@@ -8,6 +8,13 @@ This guide covers building a Let's Split v2. Order your parts and read over this
 
 * I2C isn't covered in this guide \(yet\), mostly because I didn't do it for my build.
 
+# Contents
+
+* [Introduction](README.md)
+* [Assembly](assembly.md)
+* [Flashing](flashing.md)
+* [RGB Underglow](rgb-underglow.md)
+
 ## You can contribute to this guide
 
 [Open a pull request](https://github.com/nicinabox/lets-split-guide)
