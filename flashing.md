@@ -1,5 +1,22 @@
 # Flashing
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Windows](#windows)
+- [OSX, Linux](#osx-linux)
+  - [Build Keymap (QMK)](#build-keymap-qmk)
+  - [Bootloader](#bootloader)
+- [Flash](#flash)
+- [Troubleshooting](#troubleshooting)
+  - [Programmer not responding](#programmer-not-responding)
+  - [Can't open device](#cant-open-device)
+  - [Your right side has the TRRS on the LEFT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-left-and-the-keymap-is-reversed)
+  - [Your right side has the TRRS on the RIGHT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-right-and-the-keymap-is-reversed)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Windows
 
 See [/u/CampAsAChamp's Windows Guide](https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd)

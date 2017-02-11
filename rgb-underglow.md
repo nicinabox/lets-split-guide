@@ -1,6 +1,19 @@
-# Let's Split RGB Underlgow
+# RGB Underlgow
 
 ![](http://i.imgur.com/qFXhuu1.jpg)
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Parts](#parts)
+- [Prep the strips](#prep-the-strips)
+- [Prep the wire](#prep-the-wire)
+- [Connect to the Pro Micro](#connect-to-the-pro-micro)
+- [Sync across sides](#sync-across-sides)
+- [QMK](#qmk)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Parts
 

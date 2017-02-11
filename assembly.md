@@ -1,5 +1,29 @@
 # Assembly
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Helpful references](#helpful-references)
+- [Parts](#parts)
+- [Cost Breakdown](#cost-breakdown)
+- [Order the case](#order-the-case)
+- [Mount the Diodes](#mount-the-diodes)
+- [Mount the TRRS Jack](#mount-the-trrs-jack)
+- [Connect Jumpers](#connect-jumpers)
+- [Mount Header Pins](#mount-header-pins)
+- [Mount the Pro Micro](#mount-the-pro-micro)
+  - [Mount the 2 switches under the Pro Micro](#mount-the-2-switches-under-the-pro-micro)
+  - [Mount the Pro Micro the Right Way](#mount-the-pro-micro-the-right-way)
+- [Mount the rest of the switches](#mount-the-rest-of-the-switches)
+- [Assemble the case](#assemble-the-case)
+- [Finishing touches](#finishing-touches)
+- [Troubleshooting](#troubleshooting)
+  - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
+  - [One side isn't working](#one-side-isnt-working)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Helpful references
 
 - [/u/wootpatoot's v2 assembly instructions](https://www.reddit.com/r/MechanicalKeyboards/comments/5funsl/guidelets_split_v2_assembly_instructions/)

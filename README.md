@@ -1,3 +1,5 @@
+<!-- DOCTOC SKIP -->
+
 # An Overly Verbose Guide to Building a Let's Split Keyboard
 
 This guide covers building a Let's Split v2. Order your parts and read over this guide while you wait.
@@ -9,6 +11,3 @@ This guide covers building a Let's Split v2. Order your parts and read over this
 ## You can contribute to this guide
 
 [Open a pull request](https://github.com/nicinabox/lets-split-guide)
-
-
-
