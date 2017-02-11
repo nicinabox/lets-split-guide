@@ -8,7 +8,7 @@
 - [OSX, Linux](#osx-linux)
   - [Build Keymap (QMK)](#build-keymap-qmk)
   - [Bootloader](#bootloader)
-- [Flash](#flash)
+  - [Flash](#flash)
 - [Troubleshooting](#troubleshooting)
   - [Programmer not responding](#programmer-not-responding)
   - [Can't open device](#cant-open-device)
@@ -43,7 +43,7 @@ You will have 8 seconds to flash before it continues on to the sketch.
 
 > Tip: If this is the first time the Pro Micro has been flashed it should go directly to the bootloader on start.
 
-## Flash
+### Flash
 
 QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the keymap directory type (`$` indicates the prompt. Don't type that):
 
