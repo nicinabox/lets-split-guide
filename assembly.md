@@ -38,7 +38,7 @@
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
 - [ ] [Plate & case](https://github.com/jackhumbert/qmk_firmware/blob/master/keyboards/lets_split/imgs/letssplitv2.svg) (sandwich design)
 - [ ] **8** [10mm M3 standoffs](https://www.mcmaster.com/#94868A166) (required for sandwich case)
-- [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#91292A111) (required for sandwich case, comes in packs of 100)
+- [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#92095a179/=16e985x) (required for sandwich case, comes in packs of 100)
 - [ ] **48** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
 
