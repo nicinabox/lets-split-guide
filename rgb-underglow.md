@@ -1,4 +1,4 @@
-# RGB Underlgow
+# RGB Underglow
 
 ![](http://i.imgur.com/qFXhuu1.jpg)
 
@@ -62,7 +62,7 @@ On the Pro Micro you connect the USB cable to:
 
 ## Sync across sides
 
-Remember those jumpers we did before below the TRRS jack? We're going Use the 3rd pad here.
+Remember those jumpers we did before below the TRRS jack? We're going to use the 3rd pad here.
 
 On the DO side of the controlled strip:
 
