@@ -10,7 +10,7 @@ This guide covers building a Let's Split v2. Order your parts and read over this
 
 # Contents
 
-* [Introduction](README.md)
+* Introduction _\(this page\)_
 * [Assembly](assembly.md)
 * [Flashing](flashing.md)
 * [RGB Underglow](rgb-underglow.md)
