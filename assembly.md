@@ -32,7 +32,8 @@
 
 ## Parts
 
-- [ ] [v2 PCB](http://www.switchtop.com/product/let-s-split-40-percent-pcb)
+- [ ] [v2 PCB](http://www.switchtop.com/product/let-s-split-40-percent-pcb) 
+    - [PCB Schematics](https://github.com/climbalima/let-s-Split-v2) (112.17x79.17mm) For ordering your own (from [EasyEDA](http://www.40percent.club/2017/03/ordering-pcb.html) for example)
 - [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](http://www.ebay.com/itm/Arduino-Pro-Micro-ATmega32U4-5V-16MHz-Replace-ATmega328-Pro-Mini-Leonardo-USB-/222383274330?hash=item33c713795a:g:3CkAAOSwubRXMmnp))
 - [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.digikey.com/products/en?keywords=1N4148FS-ND), just go ahead and get 100)
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
