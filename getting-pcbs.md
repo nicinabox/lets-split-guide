@@ -3,7 +3,7 @@
 ## Buying today
 
 - [mehkee.com](https://mehkee.com/products/lets-split-pcb?variant=44914069775)
-- switchtop.com - [Available late May/Early June](http://www.switchtop.com/restock-status) | [HYPE](https://www.reddit.com/r/MechanicalKeyboards/comments/6dd8rh/got_afew_lets_split_pcbs_in_today_get_hype/)
+- [switchtop.com](http://www.switchtop.com/product/let-s-split-40-percent-pcb)
 - Join a group buy ([obligatory PSA](https://www.reddit.com/r/MechanicalKeyboards/wiki/psagroupbuys)) like /u/DeductiveMonkee's [group buy](https://www.reddit.com/r/mechmarket/comments/5ti0g4/gb_lets_split_kits/) (blue PCBs)
 - Buy one on [mechmarket](https://www.reddit.com/r/mechmarket/)
 - Print your own using the Gerber files from /u/wootpatoot's [let-s-split-v2 github](https://github.com/climbalima/let-s-Split-v2) repo.
