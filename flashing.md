@@ -5,6 +5,7 @@
 
 
 - [Windows](#windows)
+- [Which side do I flash?](#which-side-do-i-flash)
 - [OSX, Linux](#osx-linux)
   - [Build Keymap (QMK)](#build-keymap-qmk)
   - [Bootloader](#bootloader)
@@ -16,6 +17,10 @@
   - [Your right side has the TRRS on the RIGHT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-right-and-the-keymap-is-reversed)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Which side do I flash?
+
+See the QMK firmware section on [Flashing](https://github.com/qmk/qmk_firmware/tree/master/keyboards/lets_split#flashing) for an up to date explanation.
 
 ## Windows
 
