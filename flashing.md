@@ -24,7 +24,7 @@ See the QMK firmware section on [Flashing](https://github.com/qmk/qmk_firmware/t
 
 ## Windows
 
-See [/u/CampAsAChamp's Windows Guide](https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd)
+See [/u/CampAsAChamp's Windows Guide](https://github.com/CampAsAChamp/LetsSplitWindowsGuide)
 
 ## OSX, Linux
 
