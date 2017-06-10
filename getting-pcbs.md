@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Getting the PCBs](#getting-the-pcbs)
+  - [Buying today](#buying-today)
+  - [Ordering PCBs using Gerber files](#ordering-pcbs-using-gerber-files)
+  - [History](#history)
+  - [Helpful references](#helpful-references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Getting the PCBs
 
 ## Buying today
