@@ -89,9 +89,7 @@ TX0 -> DIN -> DO -> extra data -> (TRRS to other side) -> extra data -> DIN
 
 ![](http://i.imgur.com/mSypC5y.jpg)
 
-It is not strictly necessary to connect the ground and VCC pads on the LED strip to the Pro Micro. Since ground and VCC are already routed to the TRRS jumper pads, the wires attached on the data out side will carry the power through the rails along to all the LEDs. Only the data in pad must be connected on the Pro Micro side.
-
-![](https://i.imgur.com/gE3KyRa.jpg)
+Since ground and VCC are already routed to the TRRS jumper pads, the wires attached on the data out side will carry the power through the rails along to all the LEDs. Only the data in pad must be connected on the Pro Micro side.
 
 ## QMK
 
