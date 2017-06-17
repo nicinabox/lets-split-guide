@@ -18,7 +18,7 @@
 ## Parts
 
 - [ ] [WS2812 LED strip](https://www.sparkfun.com/products/12025)
-- [ ] 24 AWG (or smaller) stranded wire in 3 colors (white, red, black are good choices)
+- [ ] 24 AWG (or smaller) stranded wire (white, red, black are good choices)
 
 The WS2812B strip is also fine, but avoid the sealed waterproof one for keyboards.
 
@@ -37,12 +37,12 @@ Avoid buying LED strips like this one where you cut the pad in half.  There's ju
 
 ## Prep the wire
 
-1. Cut **3 white**, **3 red**, and **3 black wires**, about 5cm (2in) in length
+1. Cut **2 white**, **2 black**, and **3 red wires**, about 5cm (2in) in length (or just 7 pieces if you're using all the same color)
 2. Strip the ends about 2-3mm
-3. Solder the wires on each end of the strip
-	- White: VCC
-	- Red: DIN/DO
-	- Black: GND
+3. Solder the wires on output end of one strip and in input end of the other strip
+  - White: VCC
+  - Red: DIN/DO
+  - Black: GND
 
 ## Connect to the Pro Micro
 
@@ -50,15 +50,12 @@ Remember, current only flows one way through diodes so be sure you've got your L
 
 Data goes like this: `--> Data In (DIN) --> Data Out (DO)`
 
-On the Pro Micro you connect the USB cable to:
-
-1. Connect LED **DIN to TX0 pin**
-2. Connect LED **GND to any GND pin**
-3. Connect LED **VCC to VCC pin**
+1. Select the LED strip you connected wires to the output side.
+2. On the Pro Micro you connect the USB cable to, connect LED **DIN to TX0 pin**.
 
 > *Tip:* You may need to adjust the length of some of your wiring so it routes snugly to the board.
 
-![](http://i.imgur.com/iHpC27N.jpg)
+![](https://i.imgur.com/PuChLyP.jpg)
 
 ## Sync across sides
 
@@ -87,7 +84,7 @@ Your wiring should look like this:
 TX0 -> DIN -> DO -> extra data -> (TRRS to other side) -> extra data -> DIN
 ```
 
-![](http://i.imgur.com/mSypC5y.jpg)
+![](https://i.imgur.com/zUnvcsr.jpg)
 
 ## QMK
 
