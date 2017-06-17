@@ -89,6 +89,8 @@ TX0 -> DIN -> DO -> extra data -> (TRRS to other side) -> extra data -> DIN
 
 ![](http://i.imgur.com/mSypC5y.jpg)
 
+Since ground and VCC are already routed to the TRRS jumper pads, the wires attached on the data out side will carry the power through the rails along to all the LEDs. Only the data in pad must be connected on the Pro Micro side.
+
 ## QMK
 
 - [QMK underglow docs](https://github.com/qmk/qmk_firmware/wiki#rgb-under-glow-mod)
