@@ -2,7 +2,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-- [Troubleshooting](#troubleshooting)
+
 
 - [Assembly](#assembly)
   - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
