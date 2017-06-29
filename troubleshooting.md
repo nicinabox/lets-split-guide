@@ -1,18 +1,19 @@
+# Troubleshooting
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 - [Troubleshooting](#troubleshooting)
-  - [Assembly](#assembly)
-    - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
-    - [One side isn't working](#one-side-isnt-working)
-  - [Flashing](#flashing)
-    - [Programmer not responding](#programmer-not-responding)
-    - [Can't open device](#cant-open-device)
-    - [Your right side has the TRRS on the LEFT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-left-and-the-keymap-is-reversed)
-    - [Your right side has the TRRS on the RIGHT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-right-and-the-keymap-is-reversed)
+
+- [Assembly](#assembly)
+  - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
+  - [One side isn't working](#one-side-isnt-working)
+- [Flashing](#flashing)
+  - [Programmer not responding](#programmer-not-responding)
+  - [Can't open device](#cant-open-device)
+  - [Your right side has the TRRS on the LEFT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-left-and-the-keymap-is-reversed)
+  - [Your right side has the TRRS on the RIGHT and the keymap is reversed](#your-right-side-has-the-trrs-on-the-right-and-the-keymap-is-reversed)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Troubleshooting
 
 ## Assembly
 

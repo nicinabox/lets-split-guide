@@ -1,15 +1,15 @@
+# Getting the PCBs
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Getting the PCBs](#getting-the-pcbs)
-  - [Buying today](#buying-today)
-  - [Ordering PCBs using Gerber files](#ordering-pcbs-using-gerber-files)
-  - [History](#history)
-  - [Helpful references](#helpful-references)
+
+- [Buying today](#buying-today)
+- [Ordering PCBs using Gerber files](#ordering-pcbs-using-gerber-files)
+- [History](#history)
+- [Helpful references](#helpful-references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Getting the PCBs
 
 ## Buying today
 
