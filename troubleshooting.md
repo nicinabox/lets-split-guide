@@ -25,9 +25,12 @@ If you're having trouble with a dead column right over your Pro Micro it could b
 
 - Double check your jumpers are bridged correctly.
 - Make sure J1 on the Pro Micro is **not** bridged.
-- Make sure you're using a TRRS cable, not a TRS cable
+- Make sure you're using a TRRS cable, not a TRS cable.
+- Make sure your Pro Micros are in the correct orientation.
 
+### Multiple characters are output when pressing a single key
 
+This usually happens when something is connected that shouldn't be. Check your controller pins and header pins for possible bridging. Check your wiring around the affected column for possible shorts.
 
 ## Flashing
 
@@ -40,8 +43,6 @@ The controller isn't in bootloader mode. You may have missed the 8 second window
 The serial port you specified isn't the one the controller is using.
 
 ### Your right side has the TRRS on the LEFT and the keymap is reversed
-
-As of Feb 7, 2017 this should no longer be necessary. The default `rev2` orientation matches the keymap below.
 
 You need to flip the keymap in QMK to match the orientation of your board. If you have the right side setup with the TRRS on the left you'll need to reverse the keymap for that side.
 
@@ -66,12 +67,13 @@ Add a new file to your keymap directory named `flip_keymap.h`:
 	}
 ```
 
-Then include this file at the top of `keymap.c` under `#include "lets_split.h"`:
+Then include this file at the top of `keymap.c`:
 
-```
-#include "flip_keymap.h"
+```diff
++ #include "flip_keymap.h"
+#include "lets_split.h"
 ```
 
 ### Your right side has the TRRS on the RIGHT and the keymap is reversed
 
-Use `rev2fliphalf` instead of `rev2` as the target.
+Use `KEYMAP_FLIP` in your keymap.c
