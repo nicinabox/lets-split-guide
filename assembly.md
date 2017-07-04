@@ -37,7 +37,7 @@
 - [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](http://www.ebay.com/itm/Arduino-Pro-Micro-ATmega32U4-5V-16MHz-Replace-ATmega328-Pro-Mini-Leonardo-USB-/222383274330?hash=item33c713795a:g:3CkAAOSwubRXMmnp))
 - [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.digikey.com/products/en?keywords=1N4148FS-ND), just go ahead and get 100)
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
-- [ ] [Plate & case](https://github.com/jackhumbert/qmk_firmware/blob/master/keyboards/lets_split/imgs/letssplitv2.svg) (sandwich design)
+- [ ] [Plate & case](http://qmk.fm/lets_split/lets_split_laser.svg) (sandwich design)
 - [ ] **8** [10mm M3 standoffs](https://www.mcmaster.com/#94868A166) (required for sandwich case)
 - [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#92095a179/=16e985x) (required for sandwich case, comes in packs of 100)
 - [ ] **48** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
