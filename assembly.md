@@ -123,7 +123,7 @@ VCC [x]     [ ] VCC
 GND [ ]     [x] GND
 ```
 
-Do both PCBs the same.
+Do both PCBs the same. When viewing the underside of the PCBs next to each other, you want the jumpers to look identical.
 
 ![](http://i.imgur.com/eLRUJxA.jpg)
 
