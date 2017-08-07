@@ -115,7 +115,7 @@ Mount the TRRS jack on the side opposite from your diodes. It should be on the b
 
 ## Connect Jumpers
 
-On the underside of the PCB, right below the TRRS jack, you'll see two sets of 3 pads labelled VCC and GND. Jumper them like this:
+On the **underside** of the PCB, right below the TRRS jack, you'll see two sets of 3 pads labelled VCC and GND. Jumper them like this:
 
 ```
 VCC [x]     [ ] VCC
