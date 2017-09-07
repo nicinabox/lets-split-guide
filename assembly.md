@@ -149,7 +149,7 @@ The long part of the pins should be protruding from the bottom. We'll trim these
 
 > *Heads up:* The plate design linked in this build is not symmetrical. One edge is slightly smaller than the other. You probably want the small edge towards the center of the board.
 
-1. Grab 2 switches and your top plate
+1. Grab 2 switches and your top plate (That's 2 switches for each side)
 2. Snap the switches into your plate in the spots that overlay the Pro Micro (on the left side that's column 2, and on the right that's column 5).
 3. Line up your PCB with the switches and solder them between the header pins
 
