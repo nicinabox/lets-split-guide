@@ -30,10 +30,10 @@ See [/u/CampAsAChamp's Windows Guide](https://github.com/CampAsAChamp/LetsSplitW
 
 ### Build Keymap (QMK)
 
-From the lets_split directory:
+From the qmk_firmware directory:
 
 ```
-make rev2-YOUR_KEYMAP_NAME-avrdude
+make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
 ```
 
 Don't forget to replace `YOUR_KEYMAP_NAME` with the actual name of your keymap.
@@ -50,10 +50,10 @@ You will have 8 seconds to flash before it continues on to the sketch.
 
 ### Flash
 
-QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the keymap directory type (`$` indicates the prompt. Don't type that):
+QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the qmk directory type (`$` indicates the prompt. Don't type that):
 
 ```
-$ make rev2-YOUR_KEYMAP_NAME-avrdude
+$ make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
 ```
 
 Be sure to replace `YOUR_KEYMAP_NAME` with the name of your keymap.
@@ -61,7 +61,7 @@ Be sure to replace `YOUR_KEYMAP_NAME` with the name of your keymap.
 Example:
 
 ```bash
-$ make rev2-YOUR_KEYMAP_NAME-avrdude
+$ make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
 Reset your Pro Micro now
 
 Connecting to programmer: .
