@@ -1,5 +1,16 @@
 # Getting the PCBs
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Buying today](#buying-today)
+- [Ordering PCBs using Gerber files](#ordering-pcbs-using-gerber-files)
+- [History](#history)
+- [Helpful references](#helpful-references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Buying today
 
 - [mehkee.com](https://mehkee.com/products/lets-split-pcb?variant=44914069775)
