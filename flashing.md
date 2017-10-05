@@ -4,12 +4,19 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Windows](#windows)
+- [Prerequisites](#prerequisites)
+  - [OSX](#osx)
+  - [Ubuntu](#ubuntu)
+  - [Raspberry Pi](#raspberry-pi)
+  - [Other Linux flavors](#other-linux-flavors)
 - [Which side do I flash?](#which-side-do-i-flash)
-- [OSX, Linux](#osx-linux)
-  - [Build Keymap (QMK)](#build-keymap-qmk)
-  - [Bootloader](#bootloader)
-  - [Flash](#flash)
+- [Choose which side you want to plug the USB cable into (choose a master side)](#choose-which-side-you-want-to-plug-the-usb-cable-into-choose-a-master-side)
+  - [Left side as master](#left-side-as-master)
+  - [Right side as master](#right-side-as-master)
+  - [Either side as master](#either-side-as-master)
+- [Build Keymap (QMK)](#build-keymap-qmk)
+- [Bootloader](#bootloader)
+- [Flash](#flash)
 - [Troubleshooting](#troubleshooting)
   - [Programmer not responding](#programmer-not-responding)
   - [Can't open device](#cant-open-device)
@@ -18,17 +25,82 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+This guide covers flashing with OSX and Linux. If you're using Windows head over to [/u/CampAsAChamp's Windows Guide](https://github.com/CampAsAChamp/LetsSplitWindowsGuide) for this part.
+
+## Prerequisites
+
+Install avrdude
+
+### OSX
+
+```
+$ brew install avrdude
+```
+
+### Ubuntu
+
+```
+sudo add-apt-repository ppa:pmjdebruijn/avrdude-release
+sudo apt-get update
+sudo apt-get install avrdude
+```
+
+### Raspberry Pi
+
+```
+echo "deb http://apt.adafruit.com/raspbian/ jessie main" | sudo tee --append /etc/apt/sources.list
+wget -O - -q https://apt.adafruit.com/apt.adafruit.com.gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install avrdude dfu-programmer gcc-avr avr-libc
+```
+
+### Other Linux flavors
+
+Probably google it, but feel free to open a PR if you'd like to expand this section.
+
 ## Which side do I flash?
 
-See the QMK firmware section on [Flashing](https://github.com/qmk/qmk_firmware/tree/master/keyboards/lets_split#flashing) for an up to date explanation.
+Both sides must be flashed. They may optionally be connected when flashing, but you'll still need to plug the USB into each side and flash it.
 
-## Windows
+## Choose which side you want to plug the USB cable into (choose a master side)
 
-See [/u/CampAsAChamp's Windows Guide](https://github.com/CampAsAChamp/LetsSplitWindowsGuide)
+### Left side as master
 
-## OSX, Linux
+This is the default. No extra configuration is needed.
 
-### Build Keymap (QMK)
+### Right side as master
+
+Add a `config.h` file to your keymap directory if it doesn't exist then add this flag to it:
+
+```c
+#define MASTER_RIGHT
+```
+
+### Either side as master
+
+Add a `config.h` file to your keymap directory if it doesn't exist then add this flag to it:
+
+```c
+#define EE_HANDS
+```
+
+Now flash the eeprom on each side:
+
+Left side:
+
+```
+avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-lefthand.eep
+```
+
+Right side:
+
+```
+avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-righthand.eep
+```
+
+NOTE: replace `$(COM_PORT)` with the port of your device (e.g. `/dev/ttyACM0`)
+
+## Build Keymap (QMK)
 
 From the qmk_firmware directory:
 
@@ -40,7 +112,7 @@ Don't forget to replace `YOUR_KEYMAP_NAME` with the actual name of your keymap.
 
 You'll now have a .hex file that we can use to flash.
 
-### Bootloader
+## Bootloader
 
 Connect RST and GND to enter bootloader. If you're using an official Sparkfun Pro Micro (the red one) you need to short this twice quickly.
 
@@ -48,7 +120,7 @@ You will have 8 seconds to flash before it continues on to the sketch.
 
 > Tip: If this is the first time the Pro Micro has been flashed it should go directly to the bootloader on start.
 
-### Flash
+## Flash
 
 QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the qmk directory type (`$` indicates the prompt. Don't type that):
 
