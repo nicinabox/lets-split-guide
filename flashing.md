@@ -28,18 +28,6 @@ See [/u/CampAsAChamp's Windows Guide](https://github.com/CampAsAChamp/LetsSplitW
 
 ## OSX, Linux
 
-### Build Keymap (QMK)
-
-From the qmk_firmware directory:
-
-```
-make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
-```
-
-Don't forget to replace `YOUR_KEYMAP_NAME` with the actual name of your keymap.
-
-You'll now have a .hex file that we can use to flash.
-
 ### Bootloader
 
 Connect RST and GND to enter bootloader. If you're using an official Sparkfun Pro Micro (the red one) you need to short this twice quickly.
@@ -50,10 +38,16 @@ You will have 8 seconds to flash before it continues on to the sketch.
 
 ### Flash
 
-QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the qmk directory type (`$` indicates the prompt. Don't type that):
+QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the qmk directory type:
 
 ```
-$ make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
+make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
+```
+
+or for the socket version:
+
+```
+make lets_split-sockets-YOUR_KEYMAP_NAME-avrdude
 ```
 
 Be sure to replace `YOUR_KEYMAP_NAME` with the name of your keymap.
@@ -85,6 +79,7 @@ avrdude done.  Thank you.
 ### Programmer not responding
 
 The controller isn't in bootloader mode. You may have missed the 8 second window to flash.
+**NOTE** Power cycling doesn't work, you have to reset it with the reset pin
 
 ### Can't open device
 
