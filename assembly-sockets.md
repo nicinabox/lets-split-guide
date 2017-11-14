@@ -70,7 +70,7 @@ Place the PCB down with the connectors facing up, and begin inserting a socket i
 
 Diodes allow current to flow in one direction only. Mount the diodes with the black line facing the square pad.
 
-![](http://i.imgur.com/uJPqbiB.jpg)
+![](images/socket-version/diodes.jpg)
 
 On the socket version, the connectors are premounted to have two similar connectors on the inside. Usually the TRRS connector
 
