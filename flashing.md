@@ -4,10 +4,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Windows](#windows)
 - [Which side do I flash?](#which-side-do-i-flash)
+- [Windows](#windows)
 - [OSX, Linux](#osx-linux)
-  - [Build Keymap (QMK)](#build-keymap-qmk)
   - [Bootloader](#bootloader)
   - [Flash](#flash)
 - [Troubleshooting](#troubleshooting)

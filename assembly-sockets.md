@@ -8,19 +8,14 @@
 - [Parts](#parts)
 - [Cost Breakdown](#cost-breakdown)
 - [Order the case](#order-the-case)
+- [Mount the sockets](#mount-the-sockets)
 - [Mount the Diodes](#mount-the-diodes)
-- [Mount the TRRS Jack](#mount-the-trrs-jack)
-- [Connect Jumpers](#connect-jumpers)
 - [Mount Header Pins](#mount-header-pins)
 - [Mount the Pro Micro](#mount-the-pro-micro)
-  - [Mount the 2 switches under the Pro Micro](#mount-the-2-switches-under-the-pro-micro)
   - [Mount the Pro Micro the Right Way](#mount-the-pro-micro-the-right-way)
-- [Mount the rest of the switches](#mount-the-rest-of-the-switches)
-- [Assemble the case](#assemble-the-case)
+- [Assemble the case **PLATE CASE HASN'T BEEN TESTED WITH SOCKET VERSION**](#assemble-the-case-plate-case-hasnt-been-tested-with-socket-version)
 - [Finishing touches](#finishing-touches)
 - [Troubleshooting](#troubleshooting)
-  - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
-  - [One side isn't working](#one-side-isnt-working)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

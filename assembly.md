@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Duckle29's socketed version](#duckle29s-socketed-version)
 - [Helpful references](#helpful-references)
 - [Parts](#parts)
 - [Cost Breakdown](#cost-breakdown)
