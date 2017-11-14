@@ -32,7 +32,7 @@
 
 ## Parts
 
-At the writing of this guide, the PCBs come with connectors presoldered, and with diodes provided.
+At the writing of this guide, the PCBs come with connectors presoldered, and with diodes and sockets provided.
 
 - [ ] Socket PCB - [You will need a set of (2) PCBs](getting-pcbs.md)
 
