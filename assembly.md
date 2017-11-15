@@ -27,7 +27,7 @@
 
 ## Duckle29's socketed version
 
-- For Duckle29's socketed version of the let's split, refer to the assmebly instructions [here](assembly-sockets.md)
+- For Duckle29's socketed version of the let's split, refer to these [assembly instructions](assembly-sockets.md)
 
 ## Helpful references
 
