@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [An Overly Verbose Guide to Building a Let's Split Keyboard](#an-overly-verbose-guide-to-building-a-lets-split-keyboard)
+- [Contents](#contents)
+  - [You can contribute to this guide](#you-can-contribute-to-this-guide)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DOCTOC SKIP -->
 
 # An Overly Verbose Guide to Building a Let's Split Keyboard

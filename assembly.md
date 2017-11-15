@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Duckle29's socketed version](#duckle29s-socketed-version)
 - [Helpful references](#helpful-references)
 - [Parts](#parts)
 - [Cost Breakdown](#cost-breakdown)
@@ -24,6 +25,10 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Duckle29's socketed version
+
+- For Duckle29's socketed version of the let's split, refer to these [assembly instructions](assembly-sockets.md)
+
 ## Helpful references
 
 - [/u/wootpatoot's v2 assembly instructions](https://www.reddit.com/r/MechanicalKeyboards/comments/5funsl/guidelets_split_v2_assembly_instructions/)
@@ -34,7 +39,7 @@
 
 - [ ] v2 PCB - [You will need a set of (2) PCBs](getting-pcbs.md)
 
-- [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](http://www.ebay.com/itm/Arduino-Pro-Micro-ATmega32U4-5V-16MHz-Replace-ATmega328-Pro-Mini-Leonardo-USB-/222383274330?hash=item33c713795a:g:3CkAAOSwubRXMmnp))
+- [ ] **2** 5V/16MHz Pro Micros ([official](https://www.sparkfun.com/products/12640) or [clone](https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=Arduino+Micro+Pro+ATmega32U4+5V&rt=nc&LH_BIN=1))
 - [ ] **48** 1N4148 diodes ([1N4148FS-ND](https://www.digikey.com/products/en?keywords=1N4148FS-ND), just go ahead and get 100)
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
 - [ ] [Plate & case](http://qmk.fm/keyboards/lets_split/lets_split_laser.svg) (sandwich design)
