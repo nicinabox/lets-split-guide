@@ -40,13 +40,13 @@ You will have 8 seconds to flash before it continues on to the sketch.
 QMK now includes a very easy way to automatically find the serial port and flash without having to race the bootloader. From the qmk directory type:
 
 ```
-make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
+make lets_split/rev2:YOUR_KEYMAP_NAME:avrdude
 ```
 
-or for the socket version:
+or for the Kailh hotswap socket version:
 
 ```
-make lets_split-sockets-YOUR_KEYMAP_NAME-avrdude
+make lets_split/sockets:YOUR_KEYMAP_NAME:avrdude
 ```
 
 Be sure to replace `YOUR_KEYMAP_NAME` with the name of your keymap.
@@ -54,7 +54,7 @@ Be sure to replace `YOUR_KEYMAP_NAME` with the name of your keymap.
 Example:
 
 ```bash
-$ make lets_split-rev2-YOUR_KEYMAP_NAME-avrdude
+$ make lets_split/rev2:YOUR_KEYMAP_NAME:avrdude
 Reset your Pro Micro now
 
 Connecting to programmer: .
