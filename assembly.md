@@ -12,6 +12,9 @@
 - [Mount the Diodes](#mount-the-diodes)
 - [Mount the TRRS Jack](#mount-the-trrs-jack)
 - [Connect Jumpers](#connect-jumpers)
+- [I2C Resistors and Jumpers](#i2c-resistors-and-jumpers)
+  - [Mount the resistors](#mount-the-resistors)
+  - [Connect the I2C Jumpers](#connect-the-i2c-jumpers)
 - [Mount Header Pins](#mount-header-pins)
 - [Mount the Pro Micro](#mount-the-pro-micro)
   - [Mount the 2 switches under the Pro Micro](#mount-the-2-switches-under-the-pro-micro)
@@ -47,6 +50,7 @@
 - [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#92095a179/=16e985x) (required for sandwich case, comes in packs of 100)
 - [ ] **48** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
+- [ ] **2** 4.7kΩ through-hole resistors (I2C only)
 
 **/!\** The M3 screws linked above may have a slight clearance issue with the keycap. You can countersink the head or use a screw with a lower profile head. I'm testing out button head screws to see if they work better.
 
@@ -131,6 +135,20 @@ GND [ ]     [x] GND
 Do both PCBs the same.
 
 ![](http://i.imgur.com/eLRUJxA.jpg)
+
+## I2C Resistors and Jumpers
+
+*Optional if you plan to use I2C.*
+
+### Mount the resistors
+
+On one PCB, mount and solder two 4.7kΩ resistors, one in each of the spaces labeled "R" on the same side of the PCB as you mounted the diodes. Resistors are not polarized and can be mounted in either direction.
+
+*Note: It doesn't matter which PCB ends up with the resistors. It's OK, but unnecessary, to place them on both.*
+
+### Connect the I2C Jumpers
+
+On the **underside** of the PCB, you'll find the I2C jumper pads located below the D17 diode. Jumper the pads on both PCBs.
 
 ## Mount Header Pins
 
