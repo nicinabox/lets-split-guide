@@ -7,6 +7,8 @@
 - [Assembly](#assembly)
   - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
   - [One side isn't working](#one-side-isnt-working)
+  - [Multiple characters are output when pressing a single key](#multiple-characters-are-output-when-pressing-a-single-key)
+  - [A single key doesn't work](#a-single-key-doesnt-work)
 - [Flashing](#flashing)
   - [Programmer not responding](#programmer-not-responding)
   - [Can't open device](#cant-open-device)

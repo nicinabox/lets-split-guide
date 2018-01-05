@@ -23,8 +23,6 @@
 - [Assemble the case](#assemble-the-case)
 - [Finishing touches](#finishing-touches)
 - [Troubleshooting](#troubleshooting)
-  - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
-  - [One side isn't working](#one-side-isnt-working)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
