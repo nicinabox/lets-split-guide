@@ -32,6 +32,10 @@ If you're having trouble with a dead column right over your Pro Micro it could b
 
 This usually happens when something is connected that shouldn't be. Check your controller pins and header pins for possible bridging. Check your wiring around the affected column for possible shorts.
 
+### A single key doesn't work
+
+You probably soldered a diode on backwards. Check the diodes near the non-working key.
+
 ## Flashing
 
 ### Programmer not responding
