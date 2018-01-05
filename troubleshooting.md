@@ -44,7 +44,10 @@ The controller isn't in bootloader mode. You may have missed the 8 second window
 
 ### Can't open device
 
-The serial port you specified isn't the one the controller is using.
+This can be caused by many different things:
+	* The serial port you specified isn't the one the controller is using.
+	* You don't have permissions to access the serial port the controller is using.
+	  * On linux, this can be rectified by adding yourself to the dialout group. Run `sudo usermod -a -G dialout $USER`, then log out and log back in.
 
 ### Your right side has the TRRS on the LEFT and the keymap is reversed
 
