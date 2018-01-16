@@ -47,7 +47,7 @@
 - [ ] **2** TRRS jacks ([CP-43514-ND](https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146))
 - [ ] [Plate & case](http://qmk.fm/keyboards/lets_split/lets_split_laser.svg) (sandwich design)
 - [ ] **8** [10mm M3 standoffs](https://www.mcmaster.com/#94868A166) (required for sandwich case)
-- [ ] **16** [6mm M3 screws](https://www.mcmaster.com/#92095a179/=16e985x) (required for sandwich case, comes in packs of 100)
+- [ ] **16** 6mm M3 [button head](https://www.mcmaster.com/#92095a179/=16e985x) or [flat head](https://www.mcmaster.com/#92010a116/=1b5e0r0) screws (required for sandwich case, comes in packs of 100)
 - [ ] **48** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - [ ] [TRRS cable](https://www.amazon.com/gp/product/B019TRW4HQ/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
 - [ ] **2** 4.7kΩ through-hole resistors (I2C only)
