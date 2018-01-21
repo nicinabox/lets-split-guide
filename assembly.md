@@ -37,6 +37,7 @@
 - [/u/wootpatoot's v2 assembly instructions](https://www.reddit.com/r/MechanicalKeyboards/comments/5funsl/guidelets_split_v2_assembly_instructions/)
 - [/u/bakingpy's build log](https://www.reddit.com/r/MechanicalKeyboards/comments/5rgj06/lets_split_v2_build_log_with_mini_usb_pro_micro/)
 - [/u/tobiasboon's Let's split v2 build log (with I2C)](https://www.reddit.com/r/MechanicalKeyboards/comments/5s3yr2/lets_split_v2_build_log_with_i2c_photos/)
+- [Visual guide and learnings by Jesper](https://medium.com/p/what-i-learned-while-building-my-own-keyboard-8b3bbc7ac3c3)
 
 ## Parts
 
