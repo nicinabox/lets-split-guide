@@ -23,8 +23,6 @@
 - [Assemble the case](#assemble-the-case)
 - [Finishing touches](#finishing-touches)
 - [Troubleshooting](#troubleshooting)
-  - [Column 2 or column 5 doesn't work (under the controller)](#column-2-or-column-5-doesnt-work-under-the-controller)
-  - [One side isn't working](#one-side-isnt-working)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -223,11 +221,4 @@ You did it! Great job!
 
 ## Troubleshooting
 
-### Column 2 or column 5 doesn't work (under the controller)
-
-If you're having trouble with a dead column right over your Pro Micro it could be that you've got a short from the switch pins. Try to get under there and bend them down.
-
-### One side isn't working
-
-- Double check your jumpers are bridged correctly.
-- Make sure J1 on the Pro Micro is **not** bridged.
+For common problems and their solutions, see [troubleshooting](troubleshooting.md).

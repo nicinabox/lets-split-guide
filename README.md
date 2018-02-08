@@ -22,6 +22,7 @@ This guide covers building a Let's Split v2. Order your parts and read over this
 * [Assembly](assembly.md)
 * [Flashing](flashing.md)
 * [RGB Underglow](rgb-underglow.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## You can contribute to this guide
 
