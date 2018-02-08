@@ -52,6 +52,7 @@ This can be caused by many different things:
 	  * On linux, this can be rectified by adding yourself to the dialout group. Run `sudo usermod -a -G dialout $USER`, then log out and log back in.
 
 ### Your right side has the TRRS on the LEFT and the keymap is reversed
+TODO: Confirm that this information is still relevant. Changes in QMK may have made this obsolete.
 
 You need to flip the keymap in QMK to match the orientation of your board. If you have the right side setup with the TRRS on the left you'll need to reverse the keymap for that side.
 
@@ -84,5 +85,6 @@ Then include this file at the top of `keymap.c`:
 ```
 
 ### Your right side has the TRRS on the RIGHT and the keymap is reversed
+TODO: Confirm that this information is still relevant. Changes in QMK may have made this obsolete.
 
 Use `KEYMAP_FLIP` in your keymap.c
