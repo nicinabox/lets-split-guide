@@ -24,6 +24,7 @@ This guide covers building a Let's Split v2. Order your parts and read over this
 * [RGB Underglow](rgb-underglow.md)
 * [Troubleshooting](troubleshooting.md)
 * [Reset Buttons](reset-buttons.md)
+* [Speaker](speaker.md)
 
 ## You can contribute to this guide
 
