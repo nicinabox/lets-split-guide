@@ -163,7 +163,9 @@ The long part of the pins should be protruding from the bottom. We'll trim these
 
 ## Mount the Pro Micro
 
-**Pay special attention on this step**. There are several things that need to be done in the right order and orientation.
+**🚨Pay special attention on this step🚨**. 
+
+**There are several things that need to be done in the right order and orientation. Specifically, "TOP" AND "BOTTOM" are the OPPOSITE of what you might think**
 
 > *Tip:* Flash your Pro Micro now before you mount it. You can test it by using a multimeter to measure the voltage between VCC and RAW. It should be around 5V. If it's bad it'll be a lot less headache than desoldering.
 
