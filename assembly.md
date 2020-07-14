@@ -84,8 +84,8 @@ Head over to [Ponoko](https://www.ponoko.com/) and create an account if it's you
 5. Click **Add Materials** > **Add a Material**
 6. Select **Choose a material type** > **Plastic**
 7. Select **Choose a material** > **Acrylic - Clear - Antistatic** (You can choose whatever type of material you like. We'll be using Acrylic for this build.)
-8. Select **Choose a thickness** > **0.118 inches**
-9. Select **Choose a size** > **P1 - 7.126 inches long x 7.126 inches wide**
+8. Select **Choose a thickness** > **3mm**
+9. Select **Choose a size** > **116.3mm wide x 174.1mm high**
 10. Click **Add this material**
 11. Your total should be around $36
 12. Click **Make it** and complete the order process
