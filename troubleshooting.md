@@ -29,6 +29,8 @@ If you're having trouble with a dead column right over your Pro Micro it could b
 - Make sure J1 on the Pro Micro is **not** bridged.
 - Make sure you're using a TRRS cable, not a TRS cable.
 - Make sure your Pro Micros are in the correct orientation.
+- You may have an older version of the Pro Micro. You may need to add the line `#define SPLIT_USB_DETECT` to your firmware in `/keyboards/lets_split/keymaps/default/config.h`. (See: [Split Keyboard Configuration Options](https://docs.qmk.fm/#/feature_split_keyboard?id=hardware-configuration-options)).
+
 
 ### Multiple characters are output when pressing a single key
 
